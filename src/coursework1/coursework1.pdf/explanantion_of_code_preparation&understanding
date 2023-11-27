@@ -1,0 +1,57 @@
+# Data preparation and understanding code
+# Option 1: Load .csv file into a pandas dataframe variable and skip the first line which is blank
+# Print the first 5 rows of data
+# Print the last 3 rows of data
+# Print the column labels
+# Print the column labels and data types
+# Describe the data using statistical information
+# set the display to the size of the original dataframe
+# Remove unnecessary columns
+#Remove the column 'Request Received (Quarter)' because it can be referred by the (month) column
+#Remove the column 'Request Closed (Quarter)', (same reason as above)
+#Merging data is not required for this dataset as all information is sufficient
+#Based on the provided dataset, it appears that there are no explicit missing values or NaN entries.
+#Identifying null values
+#The following code is to see a count of None and NaN values in each column
+#isna() to select all rows with NaN in an entire DataFrame:
+#Drop null values and replace null values
+#Handling inconsistent values 
+#no unique values 
+#finding and dropping duplicates
+#Remove blank spaces
+#No classified data
+#Check the data types of columns 
+#Simplify and clean up table
+# Save the DataFrame back to a new csv. 
+#Exploring and understanding the data
+#Create a boxplot for 'Case Active Days at Closure' because it has the most randomised data out of the other columns 
+#No need to drop or remove any of the outliers because the data is already quite spread out
+#create a Histogram for 'Case Active Days at Closure'
+#Code challenges
+#Check for outliers in other columns 
+#Create a bocplot for the column 'Number of Records'
+#From the boxplot we can see that there is no outliers identified as all the numbers are at 1
+#Create a histogram for other columns 
+#Create a histogram for the column 'Number of Records'
+#Create a histogram for the column 'Request Received (year)'
+#Create a histogram for the column 'Request Received (Month)'
+#Create a bar chart
+# Filter data for the month of May
+# Create a bar chart
+#Python fucntions that can be applied to other datasets 
+# Function to load a .csv file into a pandas dataframe variable and skip the first line which is blank
+# Function to print the first n rows of data
+# Function to print the last n rows of data
+# Function to print the column labels
+# Function to print the column labels, datatypes, and value counts
+# Function to describe the data using statistical information
+# Function to remove unnecessary columns
+# Function to handle null values
+# Function to clean up table by removing blank spaces
+# Function to simplify and clean up 'Closed on Time?' column
+# Function to save the DataFrame to a new csv
+# Function to create a boxplot for a specified column
+# Function to create a histogram for a specified column
+# Function to create a bar chart
+# Function calls
+# Load data

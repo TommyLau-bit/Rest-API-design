@@ -1,20 +1,33 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12171456&assignment_repo_type=AssignmentRepo)
-# COMP0035 2023-24 Coursework
+Goal
 
-Use this README.md to explain to the markers how to set up your project for COMP0035 coursework 1 and coursework 2.
+The COMP0035 Coursework 1 involves creating two data science web applications, focusing on software development and data preparation skills. It assesses your ability to select and apply relevant techniques throughout a project lifecycle.
 
-The project structure follows
-the ['Tests as part of the application code'](https://docs.pytest.org/en/7.1.x/explanation/goodpractices.html#tests-as-part-of-application-code)
-structure. This is to make it easier for you to submit a single folder for the coursework.
+Key Objectives
 
-Do not delete, move or rename the following files and folders:
+	1.	Data Preparation & Understanding: Develop code for data preparation and exploration using pandas and matplotlib.
+	2.	Project & Product Definition: Define the purpose, target audience, and goals for two applications:
+    	•	App1: REST API for data access, aimed at developers.
+    	•	App2: A data-driven web app using the API (options include a dashboard, ML model, or other data-based functionalities).
+	3.	Tools & Techniques: Demonstrate effective use of GitHub for version control and optional AI for data prep code.
+	4.	Methodology (Groups Only): Select and justify a suitable project methodology.
 
-- `LICENSE`
-- `README.md`
-- `.gitignore`
-- `pyproject.toml`
-- `requirements.txt`
-- `src/__init__.py`
-- `src/coursework1` and the files within it: `__init__.py`,`data_prep.py`
-- `src/coursework2` and the files within it: `__init__.py`,`employee.py`
-- `src/coursework2/tests` and the files within it: `__init__.py`,`test_code.py`, `test_employee.py`
+Structure
+
+	•	Work Individually or in Groups: Choice impacts project aspects and requirements. Data sets are allocated accordingly.
+	•	Technologies: Primarily pandas, matplotlib, and GitHub for code control. Markdown or PDF is recommended for documentation.
+
+Deliverables
+
+	1.	Data Preparation:
+    	•	data.py: Code for data prep.
+    	•	dataset.csv and dataset_prepared.csv: Original and processed datasets.
+    	•	Explanation of data prep steps.
+	2.	Project Definition (coursework1.pdf/md):
+    	•	Problem statement and product overview.
+    	•	Persona definition for target audience.
+    	•	SMART goals or questions for App2.
+	3.	Tools & Techniques:
+    	•	Source code control usage (GitHub URL).
+    	•	Linting (Groups Only).
+    	•	Project planning (Groups Only).
+    	•	Explanation of AI usage if applied.
